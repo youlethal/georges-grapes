@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "Georges Grapes",
+    "TEMPLATE_ID": "2eaf0afe-dbd2-495f-be83-391c01872bc6",
+    "MODULES": "appointments,staff,gallery",
+    "THEME": "Light"
+  }
+}
